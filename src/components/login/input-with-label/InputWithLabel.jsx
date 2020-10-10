@@ -1,10 +1,10 @@
-import "./InputWithLabel.css";
+import "./InputWithLabel.scss";
 import React from "react";
 
 export default function InputWithLabel({ value, label, onChange, type }) {
   return (
     <div className="InputWithLabel">
-      <label htmlFor={label}>{label}</label>
+      <label htmlFor={label}>{label[0].toUpperCase() + label.slice(1)}</label>
       <input
         id={label}
         name={label}

@@ -1,0 +1,13 @@
+.InputWithLabel {
+    margin: 10px;
+
+    & label {
+        margin-right: 10px;
+    }
+
+    & input {
+        line-height: 1.5rem;
+        padding-left: 5px;
+    }
+
+}

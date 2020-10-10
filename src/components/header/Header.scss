@@ -1,0 +1,12 @@
+@import '../../colors';
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: $primary;
+    color: white;
+    margin-bottom: 20px;
+}
